@@ -1,2 +1,3 @@
-import tensorflow as tf
-print(tf.__version__)
+import nltk
+nltk.download('stopwords')
+from nltk.corpus import stopwords
